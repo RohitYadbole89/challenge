@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TransferControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TransferControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.dws.challenge.html">com.dws.challenge</a> &gt; TransferControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.889s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testNegativeBalanceTransfer()</td>
+<td class="success">0.889s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:13:06.870 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.dws.challenge.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:13:06.953 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.dws.challenge.ChallengeApplication for test class com.dws.challenge.TransferControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-01T20:13:07.236+05:30  INFO 39940 --- [    Test worker] c.dws.challenge.TransferControllerTest   : Starting TransferControllerTest using Java 17.0.11 with PID 39940 (started by Rahul in D:\challenge)
+2024-10-01T20:13:07.237+05:30  INFO 39940 --- [    Test worker] c.dws.challenge.TransferControllerTest   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-10-01T20:13:07.999+05:30  INFO 39940 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-10-01T20:13:08.009+05:30  INFO 39940 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-01T20:13:08.009+05:30  INFO 39940 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-01T20:13:08.058+05:30  INFO 39940 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-01T20:13:08.060+05:30  INFO 39940 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 808 ms
+2024-10-01T20:13:08.398+05:30  INFO 39940 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2024-10-01T20:13:08.398+05:30  INFO 39940 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-01T20:13:08.399+05:30  INFO 39940 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-10-01T20:13:08.442+05:30  INFO 39940 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 58421 (http) with context path '/'
+2024-10-01T20:13:08.450+05:30  INFO 39940 --- [    Test worker] c.dws.challenge.TransferControllerTest   : Started TransferControllerTest in 1.405 seconds (process running for 2.262)
+2024-10-01T20:13:09.281+05:30  INFO 39940 --- [    Test worker] c.dws.challenge.web.AccountsController   : Creating account Account(accountId=1, balance=100)
+2024-10-01T20:13:09.296+05:30  INFO 39940 --- [    Test worker] c.dws.challenge.web.AccountsController   : Creating account Account(accountId=2, balance=100)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 01-Oct-2024, 8:13:09 pm</p>
+</div>
+</div>
+</body>
+</html>
