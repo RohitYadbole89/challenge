@@ -16,7 +16,7 @@ import java.util.concurrent.Executor;
 public class AsyncConfig {
 
     /**
-     * creating a pool of 2 threads and related thread configuration
+     * creating a pool of 4 threads and related thread configuration
      * @return
      */
     @Bean(name ="taskExecutor")
